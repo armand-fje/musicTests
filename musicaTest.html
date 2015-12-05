@@ -1,0 +1,36 @@
+<DOCTYPE html>
+<html lang=”ca”>
+<head>
+<title>Web Audio API</title>
+<meta charset="utf-8">
+<meta name="author" content="Sergi Suelves">
+<script type="text/javascript" src="js/audio.js"></script>
+</head>
+<body>
+<div id="divMensajes">
+</div>
+<div id="controls">
+<button id='btnReproducir' onclick="reproducirFrecuencia()">Reproducir Frecuencia</button>
+<br />
+<button id='btnReproducir' onclick="subirOctava()">Subir Octava</button>
+<br />
+<button id='btnReproducir' onclick="bajarOctava()">Bajar Octava</button>
+<br />
+<button id='btnDetener' onclick="detenerFrecuencia()">Detener Frecuencia</button>
+</div>
+<div id="tipos">
+<button id='sino' onclick="sine()">Onda sinusoidal</button>
+<br />
+<button id='square' onclick="square()">Onda cuadrada</button>
+<br />
+<button id='triangle' onclick="triangle()">Onda triangular</button>
+<br />
+</div>
+<style>
+#controls {
+margin-right: 40px;
+float:left;
+}
+</style>
+</body>
+</html>
